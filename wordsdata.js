@@ -356,22 +356,22 @@ var wordsData = [{
   {
     'word': '가볍다',
     'definition': '무게가 일반적이거나 기준이 되는 대상의 것보다 적다',
-    'example': ''
+    'example': '내 동생은 나보다 가벼워요.'
   },
   {
     'word': '역사',
     'definition': '인류 사회의 변천과 흥망의 과정. 또는 그 기록',
-    'example': ''
+    'example': '과거의 역사를 보고 미래를 알 수 있을까요?'
   },
   {
     'word': '대화',
     'definition': '마주 대하여 이야기를 주고받음',
-    'example': ''
+    'example': '엄마와 아빠는 긴 대화를 하였다.'
   },
   {
     'word': '살랑거리다',
     'definition': '조금 사늘한 바람이 가볍게 자꾸 불다',
-    'example': ''
+    'example': '살랑거리는 봄마람이 내 뺨을 간지럽혀요.'
   }
 
 ]
