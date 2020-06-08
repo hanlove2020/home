@@ -1,0 +1,365 @@
+body {
+    background: #F4F4F4;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: 400;
+    color: #F4F4F4;
+}
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* font-family: 'Gamja Flower', cursive; */
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+.title-section {
+    /* margin: 10px; */
+    color: #F4F4F4;
+    font-family: 'Single Day', cursive;
+    background: #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr.main-line {
+    border: 3px solid #CF7500;
+    /* border-radius: 5px; */
+    width: 95%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3.main {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+/* .top-section {
+    margin: 20px;
+    text-align : center;
+
+} */
+
+.blog-sum {
+
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+    width: 95%;
+    /* display: inline-block; */
+    background: #fff;
+    vertical-align: top;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 700px;
+}
+
+.about-us {
+    margin: 10px;
+    background: #ffffff;
+    display: inline-block;
+    width: 17%;
+
+    vertical-align: top;
+}
+
+.about-title {
+    background: #F0A500;
+    font-weight: 700;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.about-img {
+    height: 130px;
+    padding: 5px;
+}
+
+
+
+.blog {
+    display: inline-block;
+}
+
+
+.post-sum {
+    margin: 10px;
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.post-title-sum {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.post-img-sum {
+    height: 85px;
+}
+
+.post-desc-sum {
+    text-align: left;
+    padding: 6px;
+    height: 140px;
+    overflow-y: hidden;
+    /* white-space: pre-line; */
+    /* text-overflow: ellipsis;     1줄에서만 작동*/
+}
+
+.post-sum-more {
+    font-size: 12px;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.post-pop {
+    display: none;
+    width: 97%;
+    background: #fff;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-height: 800px;
+
+}
+
+
+.pop-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+}
+
+.post-title-pop {
+    position: relative;
+    margin: auto;
+
+    width: 80%;
+    background: #F4F4F4;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    max-width: 700px;
+
+}
+
+.post-img-pop {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background: #F4F4F4;
+
+    padding: 20px;
+    max-width: 700px;
+
+}
+
+img.post-img-pop {
+    width: 300px;
+    background: #F4F4F4;
+}
+
+.post-desc-pop {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    background: #F4F4F4;
+    opacity: 100%;
+    min-height: 300px;
+    padding: 10px;
+    text-align: left;
+    padding: 20px;
+    max-width: 700px;
+    line-height: 1.7;
+}
+
+
+
+.blog {
+    display: none;
+}
+
+.bottom-section {
+    margin-top: 20px;
+}
+
+.word-sum {
+    display: inline-block;
+    margin: 10px;
+    width: 47%;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 430px;
+}
+
+.word-list {
+    position: relative;
+    height: 600px;
+    text-align: center;
+}
+
+.word-inner-box {
+
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.word-title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.word-main {
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    vertical-align: middle;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.word-pop {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -185px;
+    top: 10px;
+    width: 370px;
+    height: 250px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.word-pop-word {
+    margin: auto;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.word-pop-definition {
+    margin: auto;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.word-pop-example {
+    margin: auto;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.words {
+    display: none;
+
+}
+
+.antonym-link {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    padding: 25px;
+    bottom: 120px;
+    left: 44%;
+    margin-left: -100px;
+    vertical-align: middle;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.quiz-sum {
+    display: inline-block;
+    margin: 10px;
+    width: 47%;
+    vertical-align: top;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 430px;
+}
+
+.youtube-main {
+    position: relative;
+    height: 600px;
+    /* margin-top: 10px; */
+}
+
+.youtube-header {
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+.youtube-category {
+    display: inline-block;
+    background: #F0A500;
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.youtube-title {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.quiz {
+    display: none;
+}
+
+.kahoot-link {
+    background: #F0A500;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px auto;
+    width: 98%;
+}
+
+.bottom-kahoot {
+    position: absolute;
+
+    bottom: 20px;
+    width: 98%;
+}
