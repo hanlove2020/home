@@ -58,7 +58,9 @@ let randomKahoot = kahoots[Math.floor(Math.random() * kahoots.length)];
 document.querySelector('.youtube-category').textContent = randomKahoot['category'];
 document.querySelector('.youtube-title').textContent = randomKahoot['youtube-title'];
 document.querySelector('iframe#main-youtube').src = 'https://www.youtube.com/embed/' + randomKahoot['youtube-link'];
-document.querySelector('a#main-youtube-kahoot').src = randomKahoot['kahoot-link'];
+console.log(randomKahoot['kahoot-link']);
+console.log(document.querySelector('a#main-youtube-kahoot'));
+document.querySelector('a#main-youtube-kahoot').href = randomKahoot['kahoot-link'];
 
 // <div class="youtube-header">
 // <div class="youtube-category">전래</div>
@@ -75,18 +77,18 @@ document.querySelector('a#main-youtube-kahoot').src = randomKahoot['kahoot-link'
 
 //마지막 5개 단어 가져오기
 target = document.querySelector('div.word-inner-box');
-console.log(target);
+// console.log(target);
 
 for (let i = words.length - 1; i >= words.length - 5; i--) {
 
-  console.log(i, '번째 단어', words[i]);
+  // console.log(i, '번째 단어', words[i]);
   getWordsSum(words[i]);
 }
 
 function getWordsSum(word) {
-  console.log('getWordsum');
+  // console.log('getWordsum');
   temp = document.querySelector('#temp-word-main');
-  console.log(temp);
+  // console.log(temp);
   let newWord = document.importNode(temp.content, true);
 
   newWord.querySelector('.word-main').textContent = word['word'];
@@ -100,7 +102,7 @@ function getWordsSum(word) {
 }
 
 let wordBtn = document.getElementsByClassName('word-main');
-console.log(wordBtn);
+// console.log(wordBtn);
 
 for (let i = 0; i < wordBtn.length; i++) {
   wordBtn[i].onclick = popWord;
@@ -108,7 +110,7 @@ for (let i = 0; i < wordBtn.length; i++) {
 
 function popWord() {
   let wordPop = this.nextElementSibling;
-  console.log(wordPop);
+  // console.log(wordPop);
   wordPop.style.display = 'block';
 
 }
