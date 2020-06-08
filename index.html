@@ -33,7 +33,7 @@
                 우리는 ..
             </div>
             <div class="about-img">
-                <img class="about-img" src="images/about-us.PNG" alt="">
+                <img class="about-img" src="images/about-us.png" alt="">
             </div>
             <div class="about-desc">
                 교포 어린이들의 한글공부에 관심이 많은 엄마들이에요.
@@ -78,11 +78,12 @@
                     <div class="youtube-title">삼 년 고개</div>
                 </div>
                 <!-- 반드시 www.youtube.com/embed/가 포함된 링크를 해야만 iframe에서 열릴수 있음 -->
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/yOyJtDGDkXU" frameborder="0"
-                    allowfullscreen ng-show="showvideo">
+                <iframe id="main-youtube" width="420" height="315" src="https://www.youtube.com/embed/yOyJtDGDkXU"
+                    frameborder="0" allowfullscreen ng-show="showvideo">
                 </iframe>
                 <div class="kahoot-link bottom-kahoot">
-                    <a href src="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07">Kahoot! 동영상 퀴즈</a>
+                    <a id="main-youtube-kahoot" href
+                        src="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07">Kahoot! 동영상 퀴즈</a>
                 </div>
 
             </div>
@@ -192,7 +193,7 @@
     </template>
     <script type="text/javascript" src="blogdata.js"></script>
     <script type="text/javascript" src="wordsdata.js"></script>
-    <!-- <script type="text/javascript" src="kahootdata.js"></script> -->
+    <script type="text/javascript" src="kahootdata.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 

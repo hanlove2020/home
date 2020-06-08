@@ -1,6 +1,6 @@
 let words = window.wordsData;
 let postings = window.blogData;
-// let kahoots = window.kahootData;
+let kahoots = window.kahootData;
 console.log(words);
 
 //마지막 3개 blog summary 가져오기
@@ -53,8 +53,24 @@ function popPost() {
 
 }
 
+//random youtube가져오기 
+let randomKahoot = kahoots[Math.floor(Math.random() * kahoots.length)];
+document.querySelector('.youtube-category').textContent = randomKahoot['category'];
+document.querySelector('.youtube-title').textContent = randomKahoot['youtube-title'];
+document.querySelector('iframe#main-youtube').src = 'https://www.youtube.com/embed/' + randomKahoot['youtube-link'];
+document.querySelector('a#main-youtube-kahoot').src = randomKahoot['kahoot-link'];
 
-
+// <div class="youtube-header">
+// <div class="youtube-category">전래</div>
+// <div class="youtube-title">삼 년 고개</div>
+// </div>
+// <!-- 반드시 www.youtube.com/embed/가 포함된 링크를 해야만 iframe에서 열릴수 있음 -->
+// <iframe id="main-youtube" width="420" height="315" src="https://www.youtube.com/embed/yOyJtDGDkXU"
+// frameborder="0" allowfullscreen ng-show="showvideo">
+// </iframe>
+// <div id="main-youtube-kahoot" class="kahoot-link bottom-kahoot">
+// <a href src="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07">Kahoot! 동영상 퀴즈</a>
+// </div>
 
 
 //마지막 5개 단어 가져오기
@@ -97,7 +113,7 @@ function popWord() {
 
 }
 
-//마지막 youtube가져오기 
+
 
 //모든 pop-up에 공통으로 사용될 close  (blog, word, youtube)
 let popClose = document.getElementsByClassName('pop-close');
