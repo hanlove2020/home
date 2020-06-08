@@ -1,43 +1,7 @@
 var kahootData = [{
     'category': '전래',
-    'youtube-title': '요술맷돌',
-    'youtube-link': 'a1xrd0lSnQA',
-    'kahoot-link': 'https://create.kahoot.it/details/09b9f91b-c431-468e-ba01-921b06d54263'
-  },
-  {
-    'category': '전래',
-    'youtube-title': '젊어지는 샘물',
-    'youtube-link': 'J9sSYM4EP94',
-    'kahoot-link': 'https://create.kahoot.it/details/4d5144a9-0f40-4912-8732-1b79dfa00f43'
-  },
-  {
-    'category': '전래',
-    'youtube-title': '현명한 여우와 늙은 사자',
-    'youtube-link': 'ncFR04vyYWA',
-    'kahoot-link': 'https://create.kahoot.it/details/c60c86d9-72f2-42de-9b14-4a3daa41ed9b'
-  },
-  {
-    'category': '전래',
-    'youtube-title': '바람과 해님의 내기',
-    'youtube-link': 'pjLcFAdjDr0',
-    'kahoot-link': 'https://create.kahoot.it/details/7425c6e0-d6f3-419e-997b-ed018cefa6a7'
-  },
-  {
-    'category': '전래',
-    'youtube-title': '혹부리 할아버지',
-    'youtube-link': 'wzvYueaBHBU',
-    'kahoot-link': 'https://create.kahoot.it/details/96d0bb70-84b7-4490-ad80-e0f628c8fe42'
-  },
-  {
-    'category': '전래',
-    'youtube-title': '황새와 여우의 저녁초대',
-    'youtube-link': 'PwKi1CF8D58',
-    'kahoot-link': 'https://create.kahoot.it/details/380c2632-41cf-4d75-97d4-34d8d5829a9e'
-  },
-  {
-    'category': '전래',
     'youtube-title': '삼년고개',
-    'youtube-link': '',
+    'youtube-link': 'yOyJtDGDkXU',
     'kahoot-link': 'https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07'
   },
   {
@@ -97,7 +61,7 @@ var kahootData = [{
   {
     'category': '역사',
     'youtube-title': '알에서 태어난 왕들!',
-    'youtube-link': '9OlgG8Qg2z0',
+    'youtube-link': 'SYFsJKLiQdg',
     'kahoot-link': 'https://create.kahoot.it/share/480866ed-7a5d-4527-aa54-39563a1e0b86'
   },
   {
@@ -105,5 +69,17 @@ var kahootData = [{
     'youtube-title': '나라를 두번 세운 소서노♡',
     'youtube-link': '9OlgG8Qg2z0',
     'kahoot-link': 'https://create.kahoot.it/share/2/35979fbd-c47e-4203-af3c-0e4ff8917f9a'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '자린고비와 달랑곱재기',
+    'youtube-link': 'fXfRVCLR9Zg',
+    'kahoot-link': 'https://create.kahoot.it/share/d45238e8-bdb0-4f78-8829-57867c383801'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '멸치의 꿈',
+    'youtube-link': 'WW0YTG0Fiow',
+    'kahoot-link': 'https://create.kahoot.it/share/1f77cdc6-6be0-4007-8c1d-e7835abbd7c9'
   }
 ]
