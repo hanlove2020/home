@@ -40,6 +40,23 @@ hr.main-line {
     width: 95%;
 }
 
+hr.under-title {
+    border: 1px solid #CF7500;
+    width: 50%;
+}
+
+hr.between-post {
+    border: 1px solid #000;
+    width: 80%;
+}
+
+hr.between-youtube {
+    border: 1px solid darkgray;
+    width: 80%;
+}
+
+
+
 h1 {
     font-size: 50px;
 }
@@ -57,7 +74,7 @@ h3.main {
 } */
 
 .blog-sum {
-
+    /* display: none; */
     position: relative;
     margin: auto;
     padding-top: 5px;
@@ -93,9 +110,24 @@ h3.main {
 }
 
 
-
-.blog {
+.area-title {
     display: inline-block;
+    text-align: left;
+    width: 67%;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.blog-more,
+.kahoot-more,
+.words-more {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 
@@ -158,7 +190,8 @@ h3.main {
     font-size: 24px;
 }
 
-.post-title-pop {
+.post-title-pop,
+.post-title-more {
     position: relative;
     margin: auto;
 
@@ -171,7 +204,8 @@ h3.main {
 
 }
 
-.post-img-pop {
+.post-img-pop,
+.post-img-more {
     position: relative;
     margin: auto;
     width: 80%;
@@ -182,17 +216,18 @@ h3.main {
 
 }
 
-img.post-img-pop {
-    width: 300px;
+img.post-img-pop,
+img.post-img-more {
+    width: 400px;
     background: #F4F4F4;
 }
 
-.post-desc-pop {
+.post-desc-pop,
+.post-desc-more {
     position: relative;
     margin: auto;
     width: 80%;
     background: #F4F4F4;
-    opacity: 100%;
     min-height: 300px;
     padding: 10px;
     text-align: left;
@@ -202,10 +237,23 @@ img.post-img-pop {
 }
 
 
-
 .blog {
+
     display: none;
+
+    width: 100%;
+    background: #F4F4F4;
+
 }
+
+.close-blog,
+.close-quiz {
+    position: fixed;
+    right: 8%;
+    top: 18%;
+    font-size: 30px;
+}
+
 
 .bottom-section {
     margin-top: 20px;
@@ -221,9 +269,10 @@ img.post-img-pop {
     min-width: 430px;
 }
 
-.word-list {
+.word-list,
+.youtube-main {
     position: relative;
-    height: 600px;
+    height: 540px;
     text-align: center;
 }
 
@@ -297,15 +346,15 @@ img.post-img-pop {
     display: inline-block;
     position: absolute;
     width: 200px;
-    padding: 25px;
-    bottom: 120px;
-    left: 44%;
+    padding: 12px;
+    bottom: 80px;
+    left: 49%;
     margin-left: -100px;
     vertical-align: middle;
     background: #F4F4F4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
@@ -319,11 +368,7 @@ img.post-img-pop {
     min-width: 430px;
 }
 
-.youtube-main {
-    position: relative;
-    height: 600px;
-    /* margin-top: 10px; */
-}
+
 
 .youtube-header {
     text-align: center;
@@ -345,9 +390,46 @@ img.post-img-pop {
     font-size: 20px;
 }
 
-.quiz {
+.youtube-quiz {
     display: none;
+    width: 100%;
+    background: #F4F4F4;
+
 }
+
+.youtube-iframe-more {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.youtube-more-right {
+    display: inline-block;
+    /* padding : 10px; */
+    vertical-align: top;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.youtube-title-more {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+.more-kahoot {
+    display: inline-block;
+    /* margin-bottom: 50px; */
+    background: #F0A500;
+    padding-left: 5px 15px 5px 15px;
+    font-size: 20px;
+
+}
+
+/* <div class="youtube-title-more">소가 된 사람</div>
+<div class="kahoot-link more-kahoot"> */
 
 .kahoot-link {
     background: #F0A500;

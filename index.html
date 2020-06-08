@@ -26,7 +26,11 @@
     </div>
     <!-- <div class="top-section"> -->
     <div class="blog-sum">
-        <h3 class="main">우리들의 이야기</h3>
+        <div class="area-title">
+            우리들의 이야기
+        </div>
+        <div class="blog-more"> >> 더보기</div>
+
         <hr class="main-line">
         <div class="about-us">
             <div class="about-title">
@@ -68,7 +72,8 @@
     <div class="bottom-section">
 
         <div class="quiz-sum">
-            <h3 class="main">동영상 보고 Kahoot! 하기</h3>
+            <div class="area-title">동영상 보고 Kahoot!</div>
+            <div class="kahoot-more"> >> 더보기</div>
             <hr class="main-line">
 
             <div class="youtube-main">
@@ -91,7 +96,8 @@
 
         </div>
         <div class="word-sum">
-            <h3 class="main">쑥쑥커라 어휘야</h3>
+            <div class="area-title">쑥쑥커라 어휘야</div>
+            <div class="words-more"> >> 더보기</div>
             <hr class="main-line">
             <div class="word-list">
                 <div class="word-inner-box">
@@ -110,6 +116,7 @@
 
                 </div>
                 <p>
+                    단어를 클릭하면 뜻을 볼 수 있습니다. <br>
                     Kahoot! 단어퀴즈에는 그 동안 학습한 모든 단어가 포함되어 있습니다.
                 </p>
                 <div class="kahoot-link">
@@ -127,24 +134,43 @@
         </div>
     </div>
     <div class="blog">
-        <div class="post-content"></div>
-        <div class="post-title">Kahoot 퀴즈</div>
-        <div class="post-img">
-        </div>
-        <div class="post-desc">미국의 학생들에게 카훗은 너무 익숙한 툴입니다. 학교에서 선생님들이 많이 사용하기 때문이죠. 검색을 해보니 한국어로 된 학습문제들도 더러 있는 것으로 보아
-            한국에서도 제법 사용을 하고 있는 것 같습니다. 긴장감을 고조시키는 음악, 정답률과 속도, 연속으로 맞았는지를 모두 고려해서 계산되는 점수, 친구들과의 경쟁, 사용하기 쉬운 UI로 어린이들이
-            한동안은 확실히 열광하게 할 수 있습니다. 혼자서 해도, 은근 재미가 있어요. 자꾸자꾸 카훗하고싶다며 컴퓨터 앞으로 다가오곤 합니다. 여름방학은 다가오고 COVID-19 사태로 인해 넘치는
-            시간을 어찌 보내야할지 고민이 많은 엄마들은, 유튜브 동영상을 보고 카훗 퀴즈를 시키기로 뜻을 모았습니다. 전래동화, 한국사 등 좋은 자료들이 유튜브에 아주 많더라구요. 동영상의 길이도
-            10분이내로 대부분 짧아서 한국말이 서투른 우리 아이들도 그럭저럭 집중해서 볼 수가 있답니다. 오래된 이야기들이라 엄마/아빠도 같이 보면 좋을 것 같아요. 특히 한국사 같은건 다 잊어버렸잖아요.
-            지니키즈, 핑크퐁 등 이런 유튜브 동영상 많이 만들어주는 회사들이 있음에 감사할 따름입니다. 가족들의 절대 질 수 없다 카훗 한판 가볼까요?
-        </div>
+        <div class="close-blog"><i class="fas fa-arrow-circle-left"></i></div>
+        <!-- <div class="post-content">
+            <div class="post-title-more">Kahoot 퀴즈</div>
+            <hr class="under-title">
+            <div class="post-img-more">
+                <img class="post-img-more" src="images/bingo.jpg" alt="">
+            </div>
+            <div class="post-desc-more">미국의 학생들에게 카훗은 너무 익숙한 툴입니다. 학교에서 선생님들이 많이 사용하기 때문이죠. 검색을 해보니 한국어로 된 학습문제들도 더러 있는
+                지니키즈, 핑크퐁 등 이런 유튜브 동영상 많이 만들어주는 회사들이 있음에 감사할 따름입니다. 가족들의 절대 질 수 없다 카훗 한판 가볼까요?
+            </div>
+            <hr class="between-post">
+        </div> -->
+    </div>
 
+    <div class="youtube-quiz">
+        <div class="close-quiz"><i class="fas fa-arrow-circle-left"></i></div>
+        <!-- <hr class="between-youtube"> -->
+        <!-- <div class="youtube-more">
+
+            <div class="youtube-iframe-more"><iframe class="youtube-link-more" width="250" height="180"
+                    src="https://www.youtube.com/embed/yOyJtDGDkXU" frameborder="0" allowfullscreen
+                    ng-show="showvideo"></iframe>
+            </div>
+            <div class="youtube-more-right">
+                <div class="youtube-title-more">소가 된 사람 더 긴 제목은 어떻게 될까? </div>
+                <div class="more-kahoot">
+                    <a id="main-youtube-kahoot"
+                        href="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07"
+                        target="_blank">Kahoot! 동영상 퀴즈</a>
+                </div>
+            </div>
+            <hr class="between-youtube">
+
+        </div> -->
 
     </div>
     <div class="words">
-
-    </div>
-    <div class="quiz">
 
     </div>
     <template id="temp-post-sum">
@@ -170,11 +196,10 @@
             </div>
             <div class="post-title-pop">Raffle Ticket</div>
             <div class="post-img-pop">
-                <img class="post-img-pop" src="images/bingo.jpg" alt="">
+                <img class="post-img-pop" src="images/hanlove_logo.jpg" alt="">
             </div>
             <div class="post-desc-pop">
-                met, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                metre et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut ali...
             </div>
 
@@ -192,6 +217,40 @@
             <div class="word-pop-word">중요</div>
             <div class="word-pop-definition">중요하다</div>
             <div class="word-pop-example">나는 중요한 사람입니다.</div>
+        </div>
+    </template>
+    <template id="temp-post-content">
+        <div class="post-content">
+            <div class="post-title-more">Kahoot 퀴즈</div>
+            <hr class="under-title">
+            <div class="post-img-more">
+                <img class="post-img-more" src="images/hanlove_logo.jpg" alt="">
+            </div>
+            <div class="post-desc-more">미국의 학생들에게 카훗은 너무 익숙한 툴입니다. 학교에서 선생님들이 많이 사용하기 때문이죠. 검색을 해보니 한국어로 된 학습문제들도 더러 있는
+                것으로
+                보아
+                한국에
+                지니키즈, 핑크퐁 등 이런 유튜브 동영상 많이 만들어주는 회사들이 있음에 감사할 따름입니다. 가족들의 절대 질 수 없다 카훗 한판 가볼까요?
+            </div>
+            <hr class="between-post">
+        </div>
+    </template>
+    <template id="temp-youtube-more">
+        <hr class="between-youtube">
+        <div class="youtube-more">
+            <div class="youtube-iframe-more"><iframe class="youtube-link-more" width="250" height="180"
+                    src="https://www.youtube.com/embed/yOyJtDGDkXU" frameborder="0" allowfullscreen
+                    ng-show="showvideo"></iframe>
+            </div>
+            <div class="youtube-more-right">
+                <div class="youtube-title-more">소가 된 사람 더 긴 제목은 어떻게 될까? </div>
+                <div class="more-kahoot">
+                    <a class="youtube-kahoot-more"
+                        href="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07"
+                        target="_blank">Kahoot! 동영상 퀴즈</a>
+                </div>
+            </div>
+
         </div>
     </template>
     <script type="text/javascript" src="blogdata.js"></script>

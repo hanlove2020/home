@@ -53,6 +53,47 @@ function popPost() {
 
 }
 
+
+//blog 화면 띄우기
+let blogMoreBtn = document.querySelector('.blog-more');
+blogMoreBtn.onclick = showBlog;
+
+
+function showBlog() {
+  document.querySelector('.blog-sum').style.display = 'none';
+  document.querySelector('.bottom-section').style.display = 'none';
+  document.querySelector('.blog').style.display = 'block';
+  target = document.querySelector('div.blog');
+  if (target.querySelector('.post-title-more') === null) {
+    postings.forEach(creatPost);
+  }
+
+}
+
+function creatPost(posting) {
+  temp = document.querySelector('#temp-post-content');
+  let newPost = document.importNode(temp.content, true);
+
+  newPost.querySelector('.post-title-more').textContent = posting['post-title'];
+
+  if (posting['post-img'] !== '') {
+    newPost.querySelector('img.post-img-more').src = 'images/' + posting['post-img'];
+  }
+
+  newPost.querySelector('.post-desc-more').textContent = posting['post-desc'];
+  target.insertBefore(newPost, target.childNodes[0]);
+}
+
+//blog 닫기
+let blogCloseBtn = document.querySelector('.close-blog');
+blogCloseBtn.onclick = closeBlog;
+
+function closeBlog() {
+  document.querySelector('.blog-sum').style.display = 'block';
+  document.querySelector('.bottom-section').style.display = 'block';
+  document.querySelector('.blog').style.display = 'none';
+}
+
 //random youtube가져오기 
 let randomKahoot = kahoots[Math.floor(Math.random() * kahoots.length)];
 document.querySelector('.youtube-category').textContent = randomKahoot['category'];
@@ -62,17 +103,43 @@ console.log(randomKahoot['kahoot-link']);
 console.log(document.querySelector('a#main-youtube-kahoot'));
 document.querySelector('a#main-youtube-kahoot').href = randomKahoot['kahoot-link'];
 
-// <div class="youtube-header">
-// <div class="youtube-category">전래</div>
-// <div class="youtube-title">삼 년 고개</div>
-// </div>
-// <!-- 반드시 www.youtube.com/embed/가 포함된 링크를 해야만 iframe에서 열릴수 있음 -->
-// <iframe id="main-youtube" width="420" height="315" src="https://www.youtube.com/embed/yOyJtDGDkXU"
-// frameborder="0" allowfullscreen ng-show="showvideo">
-// </iframe>
-// <div id="main-youtube-kahoot" class="kahoot-link bottom-kahoot">
-// <a href src="https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07">Kahoot! 동영상 퀴즈</a>
-// </div>
+//youtube kahoot list 띄우기
+let kahootMoreBtn = document.querySelector('.kahoot-more');
+kahootMoreBtn.onclick = showKahootList;
+
+
+function showKahootList() {
+  document.querySelector('.blog-sum').style.display = 'none';
+  document.querySelector('.bottom-section').style.display = 'none';
+  document.querySelector('.youtube-quiz').style.display = 'block';
+  target = document.querySelector('div.youtube-quiz');
+  if (target.querySelector('.youtube-more') === null) {
+    kahoots.forEach(creatKahootList);
+  }
+
+}
+
+function creatKahootList(kahoot) {
+  temp = document.querySelector('#temp-youtube-more');
+  let newKahoot = document.importNode(temp.content, true);
+
+  newKahoot.querySelector('.youtube-title-more').textContent = kahoot['youtube-title'];
+  newKahoot.querySelector('iframe.youtube-link-more').src = 'https://www.youtube.com/embed/' + kahoot['youtube-link'];
+  newKahoot.querySelector('a.youtube-kahoot-more').href = kahoot['kahoot-link'];
+
+  target.insertBefore(newKahoot, target.childNodes[0]);
+}
+
+//quiz 닫기
+let quizCloseBtn = document.querySelector('.close-quiz');
+quizCloseBtn.onclick = closeQuiz;
+
+function closeQuiz() {
+  document.querySelector('.blog-sum').style.display = 'block';
+  document.querySelector('.bottom-section').style.display = 'block';
+  document.querySelector('.youtube-quiz').style.display = 'none';
+}
+
 
 
 //마지막 5개 단어 가져오기
@@ -117,7 +184,7 @@ function popWord() {
 
 
 
-//모든 pop-up에 공통으로 사용될 close  (blog, word, youtube)
+//모든 pop-up에 공통으로 사용될 close  (blog, word)
 let popClose = document.getElementsByClassName('pop-close');
 
 
