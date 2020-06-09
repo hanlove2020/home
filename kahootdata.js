@@ -81,5 +81,17 @@ var kahootData = [{
     'youtube-title': '멸치의 꿈',
     'youtube-link': 'WW0YTG0Fiow',
     'kahoot-link': 'https://create.kahoot.it/share/1f77cdc6-6be0-4007-8c1d-e7835abbd7c9'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '활쏘기 대장 주몽!',
+    'youtube-link': 'yqNbmtBr4c8',
+    'kahoot-link': 'https://create.kahoot.it/share/2f55434b-6a8a-44ab-92d2-365a274bb5a5'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '철의 왕국 가야',
+    'youtube-link': 'c1gqwZNxgN4',
+    'kahoot-link': 'https://create.kahoot.it/share/1e4918eb-4739-45cc-9e07-740c10f57c92'
   }
 ]
