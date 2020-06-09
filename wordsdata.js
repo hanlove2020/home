@@ -374,4 +374,98 @@ var wordsData = [{
     'example': '살랑거리는 봄마람이 내 뺨을 간지럽혀요.'
   }
 
+];
+
+var antonymData = [{
+    'word': '하늘',
+    'antonym': '땅'
+  },
+  {
+    'word': '늙은',
+    'antonym': '젊은'
+  },
+  {
+    'word': '새로운',
+    'antonym': '오래된'
+  },
+  {
+    'word': '어린이',
+    'antonym': '어른'
+  },
+  {
+    'word': '젖은',
+    'antonym': '마른'
+  },
+  {
+    'word': '많다',
+    'antonym': '적다'
+  },
+  {
+    'word': '가득찬',
+    'antonym': '비어있는'
+  },
+  {
+    'word': '적다',
+    'antonym': '많다'
+  },
+  {
+    'word': '가깝다',
+    'antonym': '멀다'
+  },
+  {
+    'word': '시끄럽다',
+    'antonym': '조용하다'
+  },
+  {
+    'word': '얕다',
+    'antonym': '깊다'
+  },
+  {
+    'word': '똑똑하다',
+    'antonym': '멍청하다'
+  },
+  {
+    'word': '짧다',
+    'antonym': '길다'
+  },
+  {
+    'word': '크다',
+    'antonym': '작다'
+  },
+  {
+    'word': '가르치다',
+    'antonym': '배우다'
+  },
+  {
+    'word': '가다',
+    'antonym': '오다'
+  },
+  {
+    'word': '뜨겁다',
+    'antonym': '차갑다'
+  },
+  {
+    'word': '기쁘다',
+    'antonym': '슬프다'
+  },
+  {
+    'word': '가볍다',
+    'antonym': '무겁다'
+  },
+  {
+    'word': '넓다',
+    'antonym': '좁다'
+  },
+  {
+    'word': '던지다',
+    'antonym': '받다'
+  },
+  {
+    'word': '쓰다',
+    'antonym': '달다'
+  },
+  {
+    'word': '담다',
+    'antonym': '쏟다'
+  }
 ]

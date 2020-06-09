@@ -1,4 +1,5 @@
 let words = window.wordsData;
+let antonyms = window.antonymData;
 let postings = window.blogData;
 let kahoots = window.kahootData;
 console.log(words);
@@ -86,13 +87,7 @@ function creatPost(posting) {
 
 //blog 닫기
 let blogCloseBtn = document.querySelector('.close-blog');
-blogCloseBtn.onclick = closeBlog;
-
-function closeBlog() {
-  document.querySelector('.blog-sum').style.display = 'block';
-  document.querySelector('.bottom-section').style.display = 'block';
-  document.querySelector('.blog').style.display = 'none';
-}
+blogCloseBtn.onclick = closeMore;
 
 //random youtube가져오기 
 let randomKahoot = kahoots[Math.floor(Math.random() * kahoots.length)];
@@ -130,17 +125,9 @@ function creatKahootList(kahoot) {
   target.insertBefore(newKahoot, target.childNodes[0]);
 }
 
-//quiz 닫기
+//quiz 닫기 - closeMore는 제일 아래 있음.
 let quizCloseBtn = document.querySelector('.close-quiz');
-quizCloseBtn.onclick = closeQuiz;
-
-function closeQuiz() {
-  document.querySelector('.blog-sum').style.display = 'block';
-  document.querySelector('.bottom-section').style.display = 'block';
-  document.querySelector('.youtube-quiz').style.display = 'none';
-}
-
-
+quizCloseBtn.onclick = closeMore;
 
 //마지막 5개 단어 가져오기
 target = document.querySelector('div.word-inner-box');
@@ -208,17 +195,39 @@ function creatWordList(word) {
   target.insertBefore(newWord, target.childNodes[0]);
 }
 
-
-
-// 단어리스트 닫기
+//wordlist 닫기
 let wordsCloseBtn = document.querySelector('.close-words');
-wordsCloseBtn.onclick = closeWords;
+wordsCloseBtn.onclick = closeMore;
 
-function closeWords() {
-  document.querySelector('.blog-sum').style.display = 'block';
-  document.querySelector('.bottom-section').style.display = 'block';
-  document.querySelector('.words').style.display = 'none';
+
+//반대말 전체 리스트 띄우기
+let antonymLinkBtn = document.querySelector('.antonym-link');
+antonymLinkBtn.onclick = showAntonymList;
+
+function showAntonymList() {
+  document.querySelector('.blog-sum').style.display = 'none';
+  document.querySelector('.bottom-section').style.display = 'none';
+  document.querySelector('.antonym-list').style.display = 'block';
+  target = document.querySelector('div.antonym-list');
+  if (target.querySelector('.antonym') === null) {
+    antonyms.forEach(creatAntonymList);
+  }
 }
+
+function creatAntonymList(antonym) {
+  temp = document.querySelector('#temp-antonym-card');
+  let newAntonym = document.importNode(temp.content, true);
+
+  newAntonym.querySelector('.antonym-card-word').textContent = antonym['word'];
+  newAntonym.querySelector('.antonym-card-antonym').textContent = antonym['antonym'];
+
+  target.insertBefore(newAntonym, target.childNodes[0]);
+}
+
+//antonymlist 닫기
+let antonymCloseBtn = document.querySelector('.close-antonym');
+antonymCloseBtn.onclick = closeMore;
+
 
 
 //모든 pop-up에 공통으로 사용될 close  (blog, word)
@@ -233,4 +242,11 @@ function closePop() {
   let popWindow = this.parentNode;
   popWindow.style.display = 'none';
 
+}
+
+// 더보기 닫기 공통닫기
+function closeMore() {
+  document.querySelector('.blog-sum').style.display = 'block';
+  document.querySelector('.bottom-section').style.display = 'block';
+  this.parentNode.style.display = 'none';
 }
