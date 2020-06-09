@@ -247,11 +247,13 @@ img.post-img-more {
 }
 
 .close-blog,
-.close-quiz {
+.close-quiz,
+.close-words {
     position: fixed;
     right: 8%;
     top: 18%;
     font-size: 30px;
+    width: 100px;
 }
 
 
@@ -314,21 +316,37 @@ img.post-img-more {
 
 }
 
-.word-pop-word {
+.words {
+    display: none;
+    width: 85%;
+    background: #F4F4F4;
+    position: relative;
+    margin: auto;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+
+}
+
+.word-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.word-pop-word,
+.word-card-word {
+
     margin: auto;
     padding: 10px;
     font-size: 22px;
     font-weight: 400;
 }
 
-.word-pop-definition {
-    margin: auto;
-    padding: 10px 25px;
-    font-size: 20px;
-    text-align: left;
-
-}
-
+.word-pop-definition,
 .word-pop-example {
     margin: auto;
     padding: 10px 25px;
@@ -337,10 +355,16 @@ img.post-img-more {
 
 }
 
-.words {
-    display: none;
+.word-card-definition,
+.word-card-example {
+    margin: auto;
+    padding: 5px 15px;
+    font-size: 18px;
+    text-align: left;
 
 }
+
+
 
 .antonym-link {
     display: inline-block;

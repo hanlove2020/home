@@ -178,10 +178,47 @@ for (let i = 0; i < wordBtn.length; i++) {
 function popWord() {
   let wordPop = this.nextElementSibling;
   // console.log(wordPop);
-  wordPop.style.display = 'block';
+  wordPop.style.display = 'inline-block';
 
 }
 
+// 단어 전체 리스트 띄우기
+let wordsMoreBtn = document.querySelector('.words-more');
+wordsMoreBtn.onclick = showWordList;
+
+function showWordList() {
+  document.querySelector('.blog-sum').style.display = 'none';
+  document.querySelector('.bottom-section').style.display = 'none';
+  document.querySelector('.words').style.display = 'block';
+  target = document.querySelector('div.words');
+  if (target.querySelector('.word-card') === null) {
+    words.forEach(creatWordList);
+  }
+}
+
+function creatWordList(word) {
+  temp = document.querySelector('#temp-words-more');
+  newWord = document.importNode(temp.content, true);
+
+  newWord.querySelector('.word-card-word').textContent = word['word'];
+  newWord.querySelector('.word-card-definition').textContent = '뜻 : ' + word['definition'];
+  if (word['example'] !== '') {
+    newWord.querySelector('.word-card-example').textContent = '예문 : ' + word['example'];
+  }
+  target.insertBefore(newWord, target.childNodes[0]);
+}
+
+
+
+// 단어리스트 닫기
+let wordsCloseBtn = document.querySelector('.close-words');
+wordsCloseBtn.onclick = closeWords;
+
+function closeWords() {
+  document.querySelector('.blog-sum').style.display = 'block';
+  document.querySelector('.bottom-section').style.display = 'block';
+  document.querySelector('.words').style.display = 'none';
+}
 
 
 //모든 pop-up에 공통으로 사용될 close  (blog, word)
