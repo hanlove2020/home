@@ -93,5 +93,17 @@ var kahootData = [{
     'youtube-title': '철의 왕국 가야',
     'youtube-link': 'c1gqwZNxgN4',
     'kahoot-link': 'https://create.kahoot.it/share/1e4918eb-4739-45cc-9e07-740c10f57c92'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '칠지도와 근초고왕',
+    'youtube-link': 'ELlQIQSa4Kk',
+    'kahoot-link': 'https://create.kahoot.it/share/1c64ec3b-f51e-4f62-996a-9c825a6826b0'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '고구려 광개토대왕',
+    'youtube-link': '-OdgjlmFSZw',
+    'kahoot-link': 'https://create.kahoot.it/share/5194d42b-1495-4eb1-9f80-e7ba8a58f223'
   }
 ]
