@@ -5,13 +5,13 @@ var kahootData = [{
     'kahoot-link': 'https://create.kahoot.it/share/1436c835-7018-4775-adf3-c3ab603d8b07'
   },
   {
-    'category': '전래',
+    'category': '이솝',
     'youtube-title': '까마귀의 멋내기',
     'youtube-link': 'NKPxjKOfwyM',
     'kahoot-link': 'https://create.kahoot.it/share/600b4157-cce6-4c99-9cca-03d3984183b7'
   },
   {
-    'category': '전래',
+    'category': '이솝',
     'youtube-title': '외톨이가 된 박쥐',
     'youtube-link': 'tshtK2skjFw',
     'kahoot-link': 'https://create.kahoot.it/share/3186adbc-8898-4b32-86c9-ec7919562f0d'
@@ -105,5 +105,17 @@ var kahootData = [{
     'youtube-title': '고구려 광개토대왕',
     'youtube-link': '-OdgjlmFSZw',
     'kahoot-link': 'https://create.kahoot.it/share/5194d42b-1495-4eb1-9f80-e7ba8a58f223'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '냄새 맡은 값',
+    'youtube-link': 'AbnykQer1Po',
+    'kahoot-link': 'https://create.kahoot.it/share/4ec62c46-8d3f-4724-a08e-5897e2ffa929'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '소가 된 게으름뱅이 ',
+    'youtube-link': 'pbz-gzo0vf4',
+    'kahoot-link': 'https://create.kahoot.it/share/9c6b15af-bb11-4415-aabd-3e49e46651c7'
   }
 ]
