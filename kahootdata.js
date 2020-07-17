@@ -117,5 +117,35 @@ var kahootData = [{
     'youtube-title': '소가 된 게으름뱅이 ',
     'youtube-link': 'pbz-gzo0vf4',
     'kahoot-link': 'https://create.kahoot.it/share/9c6b15af-bb11-4415-aabd-3e49e46651c7'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '청개구리',
+    'youtube-link': 'Bhb5DovdzvA',
+    'kahoot-link': 'https://create.kahoot.it/share/9c446078-f7ed-4baa-bd77-d33004c814e2'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '왕을 원한 개구리',
+    'youtube-link': '71oZ85Dhmes',
+    'kahoot-link': 'https://create.kahoot.it/share/75ba7505-2cec-4a41-a9dc-f646ad058790'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '지혜로운까마귀',
+    'youtube-link': '3wJKMZrnd9w',
+    'kahoot-link': 'https://create.kahoot.it/share/3cc36f1d-6c9d-4f45-a0e3-09352e75617c'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '고구려 전성기의 군주 장수왕',
+    'youtube-link': '865atg7u_h4',
+    'kahoot-link': 'https://create.kahoot.it/share/947c86b4-3620-46b7-8cd7-b262c9945229'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '신라왕은 힘들어 ',
+    'youtube-link': 'YtPJ5QdhDo0',
+    'kahoot-link': 'https://create.kahoot.it/share/0c0244d3-e932-426e-8c3d-e284ec6162cc'
   }
 ]
