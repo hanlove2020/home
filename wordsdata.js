@@ -397,6 +397,106 @@ var wordsData = [{
     'word': '배신하다',
     'definition': '음이나 의리를 저버리다.',
     'example': '나쁜 신하가 임금을 배신했어요.'
+  },
+  {
+    'word': '응급치료',
+    'definition': '의학 갑작스러운 병이나 상처의 위급한 고비를 넘기기 위하여 임시로 하는 치료. ≒구급 처치ㆍ구급 치료',
+    'example': ''
+  },
+  {
+    'word': '사건',
+    'definition': '이야기에서 일어나는 일',
+    'example': ''
+  },
+  {
+    'word': '매주',
+    'definition': '각각의 주마다.',
+    'example': ''
+  },
+  {
+    'word': '평일',
+    'definition': '토요일, 일요일, 공휴일이 아닌 보통 날',
+    'example': ''
+  },
+  {
+    'word': '주말',
+    'definition': '한 주일의 끝 무렵. 주로 토요일부터 일요일까지를 이른다.',
+    'example': ''
+  },
+  {
+    'word': '등교하다',
+    'definition': '학생이 학교에 가다.',
+    'example': ''
+  },
+  {
+    'word': '허전하다',
+    'definition': '무엇을 잃거나 의지할 곳이 없어진 것같이 서운한 느낌이 있다.',
+    'example': ''
+  },
+  {
+    'word': ' 섬세하다',
+    'definition': '매우 찬찬하고 세밀하다.',
+    'example': ''
+  },
+  {
+    'word': '자랑거리',
+    'definition': '자기와 관계있는 일이나 물건으로 남에게 드러내어 뽐낼 만한 거리.',
+    'example': ''
+  },
+  {
+    'word': '물려받다',
+    'definition': '재물이나 지위 또는 기예나 학술 따위를 전하여 받다.',
+    'example': ''
+  },
+  {
+    'word': '효도',
+    'definition': '부모를 잘 섬기는 도리',
+    'example': ''
+  },
+  {
+    'word': '가정교육',
+    'definition': '가정의 일상생활 가운데 집안 어른들이 자녀들에게 주는 영향이나 가르침.',
+    'example': ''
+  },
+  {
+    'word': '침착하다',
+    'definition': '행동이 들뜨지 아니하고 차분하다.',
+    'example': ''
+  },
+  {
+    'word': '사나이',
+    'definition': '한창 혈기가 왕성할 때의 남자를 이르는 말.',
+    'example': ''
+  },
+  {
+    'word': '효과',
+    'definition': '어떤 목적을 지닌 행위에 의하여 드러나는 보람이나 좋은 결과',
+    'example': ''
+  },
+  {
+    'word': '은혜를 갚다',
+    'definition': '고맙게 베풀어 주는 신세나 혜택을 그에 상당하게 돌려주다.',
+    'example': ''
+  },
+  {
+    'word': '혹시',
+    'definition': '그러할 리는 없지만 만일에.',
+    'example': ''
+  },
+  {
+    'word': '확정되다',
+    'definition': '일이 확실하게 정해지다.',
+    'example': ''
+  },
+  {
+    'word': '가능성',
+    'definition': '앞으로 실현될 수 있는 성질이나 정도.',
+    'example': ''
+  },
+  {
+    'word': '전략',
+    'definition': '전쟁을 전반적으로 이끌어 가는 방법이나 책략',
+    'example': ''
   }
 
 ];
