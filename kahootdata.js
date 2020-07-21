@@ -147,5 +147,17 @@ var kahootData = [{
     'youtube-title': '신라왕은 힘들어 ',
     'youtube-link': 'YtPJ5QdhDo0',
     'kahoot-link': 'https://create.kahoot.it/share/0c0244d3-e932-426e-8c3d-e284ec6162cc'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '똥꼬로 나팔 부는 호랑이',
+    'youtube-link': 'OY8ZmyNLCz4',
+    'kahoot-link': 'https://create.kahoot.it/share/1acca3a5-6a22-48d0-af6e-069d1c43c33b'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '며느리 방귀는 복방귀',
+    'youtube-link': 'TasHcdtrAmc',
+    'kahoot-link': 'https://create.kahoot.it/share/7e66fdf5-de1e-4308-a2a4-9cce4449b9a4'
   }
 ]
