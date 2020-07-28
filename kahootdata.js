@@ -159,5 +159,11 @@ var kahootData = [{
     'youtube-title': '며느리 방귀는 복방귀',
     'youtube-link': 'TasHcdtrAmc',
     'kahoot-link': 'https://create.kahoot.it/share/7e66fdf5-de1e-4308-a2a4-9cce4449b9a4'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '개와 고양이',
+    'youtube-link': 'j5_0BaMNpqw',
+    'kahoot-link': 'https://create.kahoot.it/share/cb156f05-365a-4380-aef5-e6c696c440e7'
   }
 ]
