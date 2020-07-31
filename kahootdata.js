@@ -165,5 +165,17 @@ var kahootData = [{
     'youtube-title': '개와 고양이',
     'youtube-link': 'j5_0BaMNpqw',
     'kahoot-link': 'https://create.kahoot.it/share/cb156f05-365a-4380-aef5-e6c696c440e7'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '살수대첩의 영웅, 을지문덕 장군 승리',
+    'youtube-link': '1s2nlls-OnM',
+    'kahoot-link': 'https://create.kahoot.it/share/091aef64-50a0-4cf4-8896-b0d2a031bcc2'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '고구려 대막리지 연개소문',
+    'youtube-link': 'oDXj1bxyMPE',
+    'kahoot-link': 'https://create.kahoot.it/share/3c2ec9c8-8db8-4a96-9719-37142669ce9d'
   }
 ]
