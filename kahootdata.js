@@ -177,5 +177,23 @@ var kahootData = [{
     'youtube-title': '고구려 대막리지 연개소문',
     'youtube-link': 'oDXj1bxyMPE',
     'kahoot-link': 'https://create.kahoot.it/share/3c2ec9c8-8db8-4a96-9719-37142669ce9d'
+  },
+  {
+    'category': '',
+    'youtube-title': '의좋은 형제',
+    'youtube-link': '9x8WYwaB7ug',
+    'kahoot-link': 'https://create.kahoot.it/share/f0995365-ce48-4636-bbcf-566295a6cab9'
+  },
+  {
+    'category': '',
+    'youtube-title': '곶감과 호랑이',
+    'youtube-link': 'Zk3gvMGES-o',
+    'kahoot-link': 'https://create.kahoot.it/share/7d6973a1-e47c-411c-9d96-b9ad22cf60b0'
+  },
+  {
+    'category': '',
+    'youtube-title': '안시성을 지킨 양만춘',
+    'youtube-link': '5Sn-YACdiDs',
+    'kahoot-link': 'https://create.kahoot.it/share/554c8253-ba84-4250-a75f-0099f7980c57'
   }
 ]
