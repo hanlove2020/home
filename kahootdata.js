@@ -195,5 +195,23 @@ var kahootData = [{
     'youtube-title': '안시성을 지킨 양만춘',
     'youtube-link': '5Sn-YACdiDs',
     'kahoot-link': 'https://create.kahoot.it/share/554c8253-ba84-4250-a75f-0099f7980c57'
+  },
+  {
+    'category': '동화',
+    'youtube-title': '화난 마음 안아주기',
+    'youtube-link': 'U2e2PqRvAuQ',
+    'kahoot-link': 'https://create.kahoot.it/share/946fa49c-d1a3-4f84-af9a-05ce6d46ca3c'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '도깨비 방망이',
+    'youtube-link': 'rVwefWX58lQ',
+    'kahoot-link': 'https://create.kahoot.it/share/c58f8e0c-1a17-47c3-91bb-73d51806ca05'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '오줌꿈을 산 문희',
+    'youtube-link': 'YXekuQA_GAs',
+    'kahoot-link': 'https://create.kahoot.it/share/1/82ed7294-7eab-48e9-b5ef-e473bdd911b5'
   }
 ]
