@@ -213,5 +213,42 @@ var kahootData = [{
     'youtube-title': '오줌꿈을 산 문희',
     'youtube-link': 'YXekuQA_GAs',
     'kahoot-link': 'https://create.kahoot.it/share/1/82ed7294-7eab-48e9-b5ef-e473bdd911b5'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '흥부와 놀부',
+    'youtube-link': 'vEbja_KLUYU',
+    'kahoot-link': 'https://create.kahoot.it/share/098079a2-d9bf-45c4-b869-672ba154f850'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '방귀 시합',
+    'youtube-link': 'QSbRCNGpw80',
+    'kahoot-link': 'https://create.kahoot.it/share/eb8a920a-db7d-4a10-a5c3-c079d6f8403f'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '손톱을 먹은 들쥐',
+    'youtube-link': 'SLocdXVc5bc',
+    'kahoot-link': 'https://create.kahoot.it/share/239428ae-52e2-4385-af4b-41be880b1e1f'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '신라 최초 여왕! 선덕여왕의 어린 시절 덕만공주',
+    'youtube-link': 'owO1MYJTnMo',
+    'kahoot-link': 'https://create.kahoot.it/share/f5f984d4-a537-4147-95ab-e194fa0aa89e'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '뱀이 기어다니는 이유',
+    'youtube-link': 'sHxxKcI6fvM',
+    'kahoot-link': 'https://create.kahoot.it/share/2d29cb42-dd2f-4f05-a57c-c998eec7b659'
+  },
+  {
+    'category': '',
+    'youtube-title': '',
+    'youtube-link': 'hOhmSAdST_Y',
+    'kahoot-link': 'https://create.kahoot.it/share/945a3085-b2f8-4946-b2aa-c6cab7e60492'
   }
+
 ]
