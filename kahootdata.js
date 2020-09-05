@@ -245,10 +245,22 @@ var kahootData = [{
     'kahoot-link': 'https://create.kahoot.it/share/2d29cb42-dd2f-4f05-a57c-c998eec7b659'
   },
   {
-    'category': '',
-    'youtube-title': '',
+    'category': '전래',
+    'youtube-title': '부자의 소원',
     'youtube-link': 'hOhmSAdST_Y',
     'kahoot-link': 'https://create.kahoot.it/share/945a3085-b2f8-4946-b2aa-c6cab7e60492'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '이차돈 희생과 법흥왕',
+    'youtube-link': '_0kA9rkffyY',
+    'kahoot-link': 'https://create.kahoot.it/share/db9350bf-d732-432a-89a1-2e637dfdaf97'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '신라왕은 힘들어',
+    'youtube-link': 'YtPJ5QdhDo0',
+    'kahoot-link': 'https://create.kahoot.it/share/9c89111a-44ae-4242-9acd-eac5d8c68d4d'
   }
 
 ]
