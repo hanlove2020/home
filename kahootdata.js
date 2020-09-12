@@ -261,6 +261,24 @@ var kahootData = [{
     'youtube-title': '신라왕은 힘들어',
     'youtube-link': 'YtPJ5QdhDo0',
     'kahoot-link': 'https://create.kahoot.it/share/9c89111a-44ae-4242-9acd-eac5d8c68d4d'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '주인을 구한 누렁이',
+    'youtube-link': 'VCbTY-7gE9Y',
+    'kahoot-link': 'https://create.kahoot.it/v2/share/a71b1822-9b53-4a02-a9cc-da6f7daafd8b'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '삼천궁녀 해동증자 의자왕의 진실',
+    'youtube-link': 'ybizzFKUaXM',
+    'kahoot-link': 'https://create.kahoot.it/v2/share/9031d2e1-772f-4cfd-9c66-fe5a5e04dd38'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '죽음의 황산벌 전투',
+    'youtube-link': 'GNV1NTo2t78',
+    'kahoot-link': 'https://create.kahoot.it/share/ade08b24-6554-4d06-9ee9-0330a46a95e9'
   }
 
 ]
