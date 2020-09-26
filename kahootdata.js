@@ -279,6 +279,24 @@ var kahootData = [{
     'youtube-title': '죽음의 황산벌 전투',
     'youtube-link': 'GNV1NTo2t78',
     'kahoot-link': 'https://create.kahoot.it/share/ade08b24-6554-4d06-9ee9-0330a46a95e9'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '콩쥐팥쥐',
+    'youtube-link': 'c1n0G1qnBfk',
+    'kahoot-link': 'https://create.kahoot.it/v2/share/8166ad0d-d6b9-4f2c-ad83-5d299876453c'
+  },
+  {
+    'category': '전래',
+    'youtube-title': '선녀와 나무꾼',
+    'youtube-link': 'XUbbdLIbj-4',
+    'kahoot-link': 'https://create.kahoot.it/v2/share/3df3c972-051a-40a3-b8da-826c9978804d'
+  },
+  {
+    'category': '역사',
+    'youtube-title': '문무왕의 등장',
+    'youtube-link': '3YJp1sWvSCA',
+    'kahoot-link': 'https://create.kahoot.it/share/bd476779-6b0c-4181-8b14-f656ecada677'
   }
 
 ]
