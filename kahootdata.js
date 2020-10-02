@@ -297,6 +297,8 @@ var kahootData = [{
     'youtube-title': '문무왕의 등장',
     'youtube-link': '3YJp1sWvSCA',
     'kahoot-link': 'https://create.kahoot.it/share/bd476779-6b0c-4181-8b14-f656ecada677'
-  }
+  },
+  {'category':'전래','youtube-title':'밤마다 사라지는 동생의 비밀','youtube-link':'Do2pgiDm0Ug','kahoot-link':'https://create.kahoot.it/v2/details/346da09d-9b54-4d5e-af8a-f2a9bd00babc'},
+{'category':'전래','youtube-title':'무와 바꾼 송아지','youtube-link':'dmu4ZMqfQe4','kahoot-link':'https://create.kahoot.it/v2/details/879d002a-f5ae-4923-b9bd-8d236eb8f850'}
 
 ]
